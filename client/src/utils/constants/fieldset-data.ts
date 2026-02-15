@@ -63,3 +63,58 @@ export const BANK_MONTHS_DATA: FieldsetDataInterface = {
         },
     ]
 };
+export const BANK_NAME_DATA: FieldsetDataInterface = {
+    name: 'bankName',
+    label: 'Bank Name',
+    placeholder: 'Bank Name',
+    fieldType: 'text',
+    fieldsetComponentType: 'input',
+    autocomplete: 'on'
+};
+export const BANK_ROUTING_NUMBER_DATA: FieldsetDataInterface = {
+    name: 'bankRoutingNumber',
+    label: 'Bank Routing Number',
+    placeholder: '9-digit Bank Routing Number',
+    tooltip: 'Where would you like the funds to be deposited',
+    fieldType: 'number',
+    fieldsetComponentType: 'bankRoutingNumberComponent',
+    isCustomComponent: true,
+    autocomplete: 'on',
+    mask: '000000000',
+    helpImageUrl: '/imageprocessors?i=routing-number.jpg'
+};
+export const CITY_DATA: FieldsetDataInterface = {
+    name: 'city',
+    label: 'City',
+    placeholder: 'Home City',
+    fieldType: 'text',
+    fieldsetComponentType: 'input',
+    autocomplete: 'on'
+};
+export const CREDIT_SCORE_DATA: FieldsetDataInterface = {
+    name: 'creditScore',
+    label: 'Credit Score',
+    fieldsetComponentType: 'select',
+    fieldOptions: [
+        {
+            optionText: 'Excellent Credit (720-850)',
+            optionValue: 'excellent'
+        },
+        {
+            optionText: 'Good Credit (690-719)',
+            optionValue: 'good'
+        },
+        {
+            optionText: 'Fair Credit (630-689)',
+            optionValue: 'fair'
+        },
+        {
+            optionText: 'Bad Credit (300-629)',
+            optionValue: 'bad'
+        },
+        {
+            optionText: 'Not Sure',
+            optionValue: 'notSure'
+        },
+    ]
+};

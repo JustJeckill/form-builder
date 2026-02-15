@@ -39,5 +39,6 @@ export interface FieldsetDataInterface {
     tooltip?: string;
     helpImageUrl?: string;
     fieldOptions?: FieldOptionDataInterface[];
-    isCustomComponent?: boolean
+    isCustomComponent?: boolean;
+    mask?: string;
 }
