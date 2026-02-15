@@ -1,0 +1,94 @@
+[
+  {
+    "stepHash": "basic-info",
+    "stepTitle": "",
+    "stepDescription": "",
+    "isStepModals": true,
+    "stepModalInfoText": "",
+    "stepModalsComponents": [],
+    "stepSections": [
+      {
+        "sectionTitle": "Let's get started",
+        "sectionDescription": "",
+        "sectionHash": "personal-information",
+        "sectionFields": ["loanAmount", "email"]
+      }
+    ]
+  },
+  {
+    "stepHash": "personal-info",
+    "stepTitle": "",
+    "stepDescription": "",
+    "isStepModals": false,
+    "stepModalInfoText": "",
+    "stepModalsComponents": [],
+    "stepSections": [
+      {
+        "sectionTitle": "Personal Information",
+        "sectionDescription": "",
+        "sectionHash": "personal-information",
+        "sectionFields": [
+          "firstName",
+          "lastName",
+          "dob",
+          "phone",
+          "isMilitary",
+          "driverLicense",
+          "driverLicenseState"
+        ]
+      },
+      {
+        "sectionTitle": "Home Address",
+        "sectionDescription": "",
+        "sectionHash": "home-address",
+        "sectionFields": [
+          "address",
+          "zip",
+          "city",
+          "state",
+          "residenceMonths"
+        ]
+      },
+      {
+        "sectionTitle": "Employment Information",
+        "sectionDescription": "",
+        "sectionHash": "employment-information",
+        "sectionFields": [
+          "incomeSource",
+          "employedMonths",
+          "incomeFrequency",
+          "incomeNextDate",
+          "incomeNetMonthly",
+          "employerName"
+        ]
+      }
+    ]
+  },
+  {
+    "stepHash": "banking-info",
+    "stepTitle": "",
+    "stepDescription": "",
+    "isStepModals": false,
+    "stepModalInfoText": "",
+    "stepModalsComponents": [],
+    "stepSections": [
+      {
+        "sectionTitle": "Financial Information",
+        "sectionDescription": "",
+        "sectionHash": "financial-information",
+        "sectionFields": [
+          "ssn",
+          "loanPurpose",
+          "creditScore",
+          "debt",
+          "payType",
+          "bankMonths",
+          "bankAccountType",
+          "bankRoutingNumber",
+          "bankName",
+          "bankAccountNumber"
+        ]
+      }
+    ]
+  }
+]
