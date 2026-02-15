@@ -1,4 +1,4 @@
-export interface InputFieldsetInterface {
+export interface InputFieldsetPropsInterface {
     isAutoFocus: boolean;
     fieldType: 'text' | 'email' | 'tel';
     name: string;
@@ -22,4 +22,22 @@ export interface InputFieldsetInterface {
 
     changeHandler: () => void;
     blurHandler: () => void;
+}
+
+export interface FieldOptionDataInterface {
+    optionValue: string;
+    optionText: string;
+}
+
+export interface FieldsetDataInterface {
+    name: string;
+    label: string;
+    placeholder?: string;
+    fieldType?: string;
+    fieldsetComponentType: string;
+    autocomplete?: string;
+    tooltip?: string;
+    helpImageUrl?: string;
+    fieldOptions?: FieldOptionDataInterface[];
+    isCustomComponent?: boolean
 }

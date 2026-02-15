@@ -1,4 +1,4 @@
-import {InputFieldsetInterface} from "@/types/fieldsets";
+import {InputFieldsetPropsInterface} from "@/types/fieldsets";
 import {useState} from "react";
 import {
     FORM_FIELDSET_FIELD_INVALID,
@@ -7,7 +7,7 @@ import {
     FORM_FIELDSET_VALID
 } from "@/utils/constants/form-classes";
 
-const InputFieldset = (data: InputFieldsetInterface) => {
+const InputFieldset = (data: InputFieldsetPropsInterface) => {
     const {
         isAutoFocus = false,
         fieldType = 'text',
